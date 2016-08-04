@@ -2,9 +2,9 @@ import logging
 import re
 
 from django import forms
-
 from django.utils import six
-from easy_select2.widgets import Select2TextInput
+
+from .widgets import Select2TextInput
 
 logger = logging.getLogger('advanced_filters.form_helpers')
 
